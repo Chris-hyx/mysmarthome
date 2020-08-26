@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/control.png</file>
+        <file>images/home.jpg</file>
+        <file>images/home.png</file>
+        <file>images/light.png</file>
+        <file>images/login.png</file>
+        <file>images/login_passsword.png</file>
+        <file>images/login_user.png</file>
+        <file>images/logo.png</file>
+        <file>images/manager.jpg</file>
+        <file>images/password.png</file>
+        <file>images/smart_home_.png</file>
+        <file>images/user.png</file>
+    </qresource>
+</RCC>
