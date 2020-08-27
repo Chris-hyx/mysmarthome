@@ -21,13 +21,15 @@ void networkmanager::sendPacket(QString pack)
     udpSocket->writeDatagram(pack.toUtf8(),QHostAddress::LocalHost,7800);
 }
 
-networkmanager *networkmanager::getNetworkIntance()
+
+ networkmanager *networkmanager::getNetworkIntance()
 {
     if(net == NULL){
         net  = new networkmanager;
     }
     return net;
 }
+
 
 //读取udp 数据的槽函数
 

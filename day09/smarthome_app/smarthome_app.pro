@@ -27,16 +27,19 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     logindialog.cpp \
-    networkmanager.cpp
+    networkmanager.cpp \
+    dialog.cpp
 
 HEADERS += \
         mainwindow.h \
     logindialog.h \
-    networkmanager.h
+    networkmanager.h \
+    dialog.h
 
 FORMS += \
         mainwindow.ui \
-    logindialog.ui
+    logindialog.ui \
+    dialog.ui
 
 RESOURCES += \
     res_app.qrc

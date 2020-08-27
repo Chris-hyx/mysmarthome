@@ -21,6 +21,7 @@ DBManager::DBManager(QObject *parent) : QObject(parent)
     QString sql = "CREATE TABLE IF NOT EXITS user(id interger primary key,username text,password text";
     //Ö´ÐÐ sql Óï¾ä
     QSqlQuery query(QSqlDatabase::database(connectname));
+
     if(!query.exec(sql)){
         qDebug()<<query.lastError().text();
     }

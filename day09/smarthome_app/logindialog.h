@@ -17,17 +17,12 @@ public:
     ~LoginDialog();
 
 private slots:
-    void on_label_login_linkActivated(const QString &link);
-
-    void on_btnregister_clicked();
-
-    void on_btn_register_clicked();
 
     void on_btn_login_clicked();
 
 private:
     Ui::LoginDialog *ui;
-    networkmanager *net;
+    networkmanager *net;//进行网络发送，需要引用网络模块的指针对象
 };
 
 #endif // LOGINDIALOG_H
